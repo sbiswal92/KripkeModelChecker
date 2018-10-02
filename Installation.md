@@ -1,11 +1,11 @@
-##Installation and Execution
+## Installation and Execution
 
 1. Run make. Ensure it creates an executable "mctool"
 2. Run ./mctool <input_file>.txt
 
 
 
-##Input File Format
+## Input File Format
 
 Should contain a Kripke Structure defined by the following tags and some appending information. 
 N.B: An example.txt is provided in repository.
@@ -18,9 +18,8 @@ N.B: An example.txt is provided in repository.
 
 * CTL followed by list of CTL properties you want to check on the structure and their correspoding notation to print the list of states if the property holds true. 
 
-![An example Kripke Structure]
-(https://en.wikipedia.org/wiki/Kripke_structure_(model_checking)#/media/File:KripkeStructureExample.svg)
+![An example Kripke Structure](https://en.wikipedia.org/wiki/Kripke_structure_(model_checking)#/media/File:KripkeStructureExample.svg)
 
-##Output Format
+## Output Format
 
 List of states where each proposition listed under CTL holds true.
