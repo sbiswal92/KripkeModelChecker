@@ -21,3 +21,6 @@ N.B: An example.txt is provided in repository.
 ![An example Kripke Structure]
 (https://en.wikipedia.org/wiki/Kripke_structure_(model_checking)#/media/File:KripkeStructureExample.svg)
 
+##Output Format
+
+List of states where each proposition listed under CTL holds true.
