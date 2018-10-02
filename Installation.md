@@ -18,7 +18,7 @@ N.B: An example.txt is provided in repository.
 
 * CTL followed by list of CTL properties you want to check on the structure and their correspoding notation to print the list of states if the property holds true. 
 
-![An example Kripke Structure](https://en.wikipedia.org/wiki/Kripke_structure_(model_checking)#/media/File:KripkeStructureExample.svg)
+![An example Kripke Structure](https://upload.wikimedia.org/wikipedia/en/3/3b/KripkeStructureExample.svg)
 
 ## Output Format
 
