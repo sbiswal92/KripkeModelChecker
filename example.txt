@@ -1,0 +1,36 @@
+
+# 
+# Example 4.1 from the lecture notes
+#
+
+KRIPKE
+
+STATES 4
+
+ARCS
+
+  S0 -> S0;   S0 -> S1;
+  S1 -> S0;   S1 -> S2;
+  S2 -> S1;   S2 -> S2;   S2 -> S3;
+  S3 -> S1;   S3 -> S2;   S3 -> S3;
+
+LABELS
+
+  p: S3;
+  q: S2, S3;
+  r: S1;
+
+CTL
+
+  p1 := EX q;
+  p2 := AX q;
+  p3 := EF ( !r & !q );
+  p4 := AF r;
+  p5 := E p U q;
+  p6 := E q U r;
+  p7 := A q U r;
+
+  
+  [[p5]];
+  [[p1]];
+  [[p2]];
